@@ -1,0 +1,75 @@
+*{
+    background-color: #fff;
+    font-size: 16px;
+}
+table thead tr th{
+    color: black!important;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+
+.pt-3{
+    padding-top: 1rem!important;
+}
+
+.pb-3{
+    padding-bottom: 1rem!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.signature_area h6 {border-top: 1px solid #000;display: inline-block;margin-top: 11px;}

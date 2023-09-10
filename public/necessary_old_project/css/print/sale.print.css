@@ -1,0 +1,144 @@
+*{
+    background-color: #fff;
+    font-size: 16px;
+}
+table thead tr th{
+    color: black!important;
+}
+
+table thead tr{
+    background-color: black!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-block {
+    display: block;
+}
+
+.col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-lg-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.page_break{
+    page-break-after: always;
+}
+
+.bordered{
+    border: 2px solid black;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-md-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.borderTop{
+    border-top: 1px solid rgb(44, 42, 42);
+    padding-top: 4px;
+    display: inline;
+    padding: 0 8px;
+}
+
+.pt-3{
+    padding-top: 1rem!important;
+}
+
+.pb-3{
+    padding-bottom: 1rem!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #000000;
+    padding-top: 4px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.mr{
+    margin-right: 2%;
+}
+.signature_area h6 {border-top: 1px solid #000;display: inline-block;margin-top: 11px;}
+
+/* Test */
+
+/* div#header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+} */
+
+div#footer {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+}
+
+@page 
+{
+    size:21cm 29.7cmt;
+    margin:1cm 1cm 1cm 1cm; 
+    mso-title-page:yes;
+    mso-page-orientation: portrait;
+    mso-header: header;
+    mso-footer: footer;
+}
+/* Test End */

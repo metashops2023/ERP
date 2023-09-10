@@ -1,0 +1,26 @@
+td{border: 0px solid green!important; font-weight: 400;} 
+th.debit {border-left: 1px solid lightgray!important;}
+th.credit {border-left: 1px solid lightgray!important;}
+th.trial_balance {border-bottom: 1px solid lightgray!important;}
+th.debit {border-bottom: 1px solid lightgray!important;}
+th.credit {border-bottom: 1px solid lightgray!important;}
+.sp{border-left: 1px solid lightgray!important;}
+.table tbody + tbody {border-top: 0px solid #EBEDF3;}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #3F4254;
+    background-color: transparent;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem!important; }
+
+.bg-secondary {
+    background-color: lightgray !important;
+}
+
+table tfoot td{
+    border-top: 1px solid lightgray!important;
+}

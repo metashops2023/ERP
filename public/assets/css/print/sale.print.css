@@ -1,0 +1,100 @@
+*{background-color: #fff;font-size: 16px;}
+table thead tr th{color: black!important;}
+
+table thead tr{background-color: black!important;}
+
+.row {display: flex; flex-wrap: wrap;}
+
+.d-block {display: block;}
+
+.col-lg-12 {flex: 0 0 100%;max-width: 100%;}
+
+.col-lg-8 {flex: 0 0 66.666667%;max-width: 66.666667%;}
+
+.col-lg-10 {flex: 0 0 83.33333%;max-width: 83.33333%;}
+
+.page_break{page-break-after: always;}
+
+.bordered{border: 2px solid black;}
+
+.col-md-6 {flex: 0 0 50%;max-width: 50%;}
+
+.col-lg-4 {flex: 0 0 33.333333%;max-width: 33.333333%;}
+
+.col-md-3 {flex: 0 0 25%;max-width: 25%;}
+
+.col-md-2 {flex: 0 0 20%;max-width: 20%;}
+
+.borderTop{border-top: 1px solid rgb(44, 42, 42);padding-top: 4px;display: inline;padding: 0 8px;}
+
+.pt-3{padding-top: 1rem!important;}
+
+.pb-3{padding-bottom: 1rem!important;}
+
+.text-end {text-align: right!important;}
+
+.text-start {text-align: left!important;}
+
+.text-center{text-align: center!important;}
+
+.table {width: 100%;margin-bottom: 1rem;color: #212529;}
+
+table {border-collapse: collapse;}
+
+.table-bordered {border: 1px solid #000000;padding-top: 4px;}
+
+table-sm th,.table-sm td {padding: 1px!important;}
+
+.list-unstyled {padding-left: 0;list-style: none;}
+
+.me{margin-right: 2%;}
+
+.logo-size{height: 75px;width:200px;}
+.signature_area h6 {border-top: 1px solid #000;display: inline-block;margin-top: 11px;}
+
+.table-sm>:not(caption)>*>*{padding:.25rem .25rem}
+.table-sm th,.table-sm td {padding: 0.3rem!important;}
+
+/* Test */
+
+/* div#header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+} */
+
+/* div#footer {position:fixed;bottom:20px;left:0px;width:100%;height:0%;color:#CCC;background:#333; padding: 0; margin: 0;} */
+
+@page 
+{
+    /* size:21cm 29.7cm; */
+     /* margin:1cm 1cm 1cm 1cm; */
+    /* margin:20px 20px 0px; */
+    /* mso-title-page:yes;mso-page-orientation: portrait;mso-header: header;mso-footer: footer; */
+}
+/* Test End */
+
+.modal-table tr {line-height: 12px;}
+
+.modal-table tbody tr {line-height: 13px;}
+
+.modal-table tbody tr {background: #f5f3f3;}
+
+/* Pos print Design */
+.pos_print_template{font-family: Arial, Helvetica, sans-serif!important;font-weight: bolder;}
+.pos_print_template span{font-weight: 300!important}
+.customer_info table thead tr th{line-height: 20px;}
+.amount_area table tr th{line-height: 15px; font-size: 12px;}
+.company_info table thead tr th{line-height: 20px;}
+/* .sale_product_table table tbody tr td{font-size: 13px;} */
+.footer_area table thead th{line-height: 15px; font-size: 7px;}
+.description_area{font-weight: 400;}
+.footer_text_area th{line-height: 10px; font-size: 8px;}
+.d-body tr th{font-weight: 300!important;font-size: 10px;}
+.d-body tr th{border-bottom: 1px solid rgb(46, 45, 45);}
+.t-head tr th{font-size: 9px;border-bottom: 1px solid rgb(46, 45, 45);}
+/* Pos print Design End*/
