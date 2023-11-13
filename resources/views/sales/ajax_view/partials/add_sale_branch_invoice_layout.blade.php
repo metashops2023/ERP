@@ -642,7 +642,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    {{-- <div>
                         <img style="width: 50px;"
                             src="data:image/png;base64,
                                         {!! base64_encode(
@@ -662,7 +662,7 @@
                                                         App\Utils\Converter::format_in_bdt($sale->order_tax_amount),
                                                 ),
                                         ) !!} ">
-                    </div>
+                    </div> --}}
                 </div>
                 <!-- Start Merchant Table -->
                 <table class="table mt-2 mb-5" style="border: 1px solid #EEE;">
