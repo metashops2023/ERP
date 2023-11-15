@@ -635,14 +635,14 @@
                         <div class="d-flex flex-column">
                             <h3>فاتورة ضريبية</h3>
                             <div class="d-flex justify-content-between">
-                                <h5>الرقم التسلسلي <br> {{ $sale->invoice_id }}</h5>
+                                <h5>الرقم التrfefreسلسلي <br> {{ $sale->invoice_id }}</h5>
                                 <h5>التاريخ <br>
                                     {{ date(json_decode($generalSettings->business, true)['date_format'], strtotime($sale->date)) }}
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    {{-- <div>
+                    <div>
                         <img style="width: 50px;"
                             src="data:image/png;base64,
                                         {!! base64_encode(
@@ -662,7 +662,7 @@
                                                         App\Utils\Converter::format_in_bdt($sale->order_tax_amount),
                                                 ),
                                         ) !!} ">
-                    </div> --}}
+                    </div>
                 </div>
                 <!-- Start Merchant Table -->
                 <table class="table mt-2 mb-5" style="border: 1px solid #EEE;">
