@@ -35,7 +35,7 @@ class TenantController extends Controller
             'plan' => $request->plan,
             'registrationdate' => $request->registrationdate
         ]);
-        $tenant->domains()->create(['domain' => "$request->name.metashops.com.sa"]);
+        $tenant->domains()->create(['domain' => "$request->name.erp.metashops.com.sa"]);
 
         return redirect("/")->with('message', 'Saved...');
     }
