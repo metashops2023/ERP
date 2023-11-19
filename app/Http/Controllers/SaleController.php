@@ -1826,4 +1826,29 @@ class SaleController extends Controller
         return response()->json(__('Sale settings updated successfully'));
 
     }
+
+    public function createInvoice(Request $request)
+    {
+        $line_item = $request->input('line_item');
+        $egs_unit = $request->input('egs_unit');
+        $invoice = $request->input('invoice');
+
+        $egs = new EGS($egsUnit);
+
+        $egs->production = false;
+
+        // New Keys & CSR for the EGS
+        list($private_key, $csr) = $egs->generateNewKeysAndCSR('solution_name');
+
+        // Issue a new compliance cert for the EGS
+        list($request_id, $binary_security_token, $secret) = $egs->issueComplianceCertificate('123345', $csr);
+
+        // Sign invoice
+        list($signed_invoice_string, $invoice_hash, $qr) = $egs->signInvoice($invoice, $egs_unit, $binary_security_token, $private_key);
+
+        // Check invoice compliance
+        $compliance = $egs->checkInvoiceCompliance($signed_invoice_string, $invoice_hash, $binary_security_token, $secret);
+
+        return response()->json($compliance);
+    }
 }

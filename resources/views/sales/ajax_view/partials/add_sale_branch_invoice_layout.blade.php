@@ -635,7 +635,7 @@
                         <div class="d-flex flex-column">
                             <h3>فاتورة ضريبية</h3>
                             <div class="d-flex justify-content-between">
-                                <h5>الرقم التrfefreسلسلي <br> {{ $sale->invoice_id }}</h5>
+                                <h5>الرقم التسلسلي <br> {{ $sale->invoice_id }}</h5>
                                 <h5>التاريخ <br>
                                     {{ date(json_decode($generalSettings->business, true)['date_format'], strtotime($sale->date)) }}
                                 </h5>
